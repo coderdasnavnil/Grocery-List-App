@@ -129,6 +129,12 @@ Add → Edit → Delete → Persist data after refresh
 
 ---
 
+# Live Deployment
+
+Link: https://grocery-list-app-v1.vercel.app/
+
+---
+
 # 👨‍💻 Author
 
 Navnil Das
