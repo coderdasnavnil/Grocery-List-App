@@ -51,6 +51,7 @@ code {
   font-size: 1.2rem;
   border-radius: 10px;
   border:rgba(35, 35, 245, 0.914) 2px solid;
+  outline:rgba(35, 35, 245, 0.914) 2px solid;
 }
 .submitBtn{
   flex:1;
