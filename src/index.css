@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.grocery-container{
+  border:none;
+  box-shadow: 0px 0px 4px 4px #999;
+  border-radius:10px;
+  width:40rem;
+  margin:2rem auto;
+  /* height: 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  padding: 15px 0;
+}
+.heading{
+  font-size:2rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgba(35, 35, 245, 0.914);
+}
+.search-container{
+  /* border:solid 2px black; */
+  width:80%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:0.4rem;
+  box-sizing: border-box;
+  padding:0 0.8rem;
+  margin-top:-1rem;
+  margin-bottom:1rem;
+}
+.userInput{
+  flex:3;
+  height:2rem;
+  padding:0 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border:rgba(35, 35, 245, 0.914) 2px solid;
+}
+.submitBtn{
+  flex:1;
+  height:2.2rem;
+  font-size: 1rem;
+  cursor:pointer;
+  background-color:rgba(35, 35, 245, 0.914) ;
+  color:#fff;
+  border-radius: 10px;
+  border: rgba(35, 35, 245, 0.914);
+}
+
+.clearListBtn{
+  background-color: transparent;
+  border:rgba(35, 35, 245, 0.914) solid 2px;
+  color:rgba(35, 35, 245, 0.914);
+  height:3rem;
+  width:10rem;
+  font-size: 1.5rem;
+  font-weight:600;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.clearListBtn:hover{
+  background-color: rgba(35, 35, 245, 0.914);
+  color:#fff;
+  border:none;
+  
+}

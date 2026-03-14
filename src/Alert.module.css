@@ -1,0 +1,21 @@
+.heading{
+    border:solid green 2px;
+    margin-bottom:-25px;
+    padding:0.5rem 2rem;
+    width:40%;
+    text-align:center;
+    font-size: 1.0rem;
+    border:none;
+    border-radius:7px;
+    font-weight:550;
+}
+
+.alertSuccess{
+    background-color: rgb(168, 237, 168);
+    color:rgb(2, 88, 2);
+}
+
+.alertDanger{
+    background-color: rgb(241, 140, 140);
+    color:rgb(151, 3, 3);
+}
