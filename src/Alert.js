@@ -11,7 +11,7 @@ function Alert({msg, type, removeAlert, list}){
         }, 3000);
 
         return ()=>clearTimeout(timeOutID);
-    }, [list]);
+    }, [list, removeAlert]);
 
     return (
         <h2 className={`${style.heading} ${style[`alert${type}`]}`}>{msg}</h2>
